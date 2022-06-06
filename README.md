@@ -18,10 +18,10 @@
 
 - Crear función main
 - Funcionalidades requeridas:
-- Crear equipo de fútbol: Nombre
-- Buscar:
-  - Todos los equipos
-  - Un equipo en particular
-- Eliminar un equipo
-- Actualizar un equipo (cambio de nombre)
-- Buscar por coincidencia: parte del nombre
+  - Crear equipo de fútbol: Nombre
+  - Buscar:
+    - Todos los equipos
+    - Un equipo en particular
+  - Eliminar un equipo
+  - Actualizar un equipo (cambio de nombre)
+  - Buscar por coincidencia: parte del nombre
