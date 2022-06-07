@@ -22,6 +22,6 @@
   - Buscar:
     - Todos los equipos
     - Un equipo en particular
+    - Buscar por coincidencia: parte del nombre
   - Eliminar un equipo
   - Actualizar un equipo (cambio de nombre)
-  - Buscar por coincidencia: parte del nombre
