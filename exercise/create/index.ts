@@ -2,7 +2,7 @@
 //CLASE: es un molde para crear objetos
 //en la interface recomendacion poner la I mayuscula al principio despues el nombre que querramos
 
-interface IClub {
+export interface IClub {
   id: number;
   name: string;
 }
@@ -12,7 +12,7 @@ interface IResponse extends IClub {
   msg: string;
 }
 
-const clubes: IClub[] = []; // importante el array vacio para que no nos de un error
+export const clubes: IClub[] = []; // importante el array vacio para que no nos de un error
 
 const createClub = (id: number, name: string): IResponse => {
   clubes.push({id, name});
