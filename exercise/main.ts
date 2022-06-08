@@ -8,12 +8,12 @@ const main = (): any => {
   // devolviendo resultados del findAll
   const res = findAll();
   console.log(res)
-  //devolviendo resultados del findOne
-  const resOne = findOne(3);
-  console.log(resOne)
   //devolviendo resultados de findByText
-  const resByText = findByText('b')
+  const resByText = findByText('riv')
   console.log(resByText)
+  //devolviendo resultados del findOne
+  const resOne = findOne(10);
+  console.log(resOne)
 }
 
 main();
